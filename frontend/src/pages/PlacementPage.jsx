@@ -891,7 +891,7 @@ export default function PlacementPage() {
               className="
                 grid
                 grid-cols-1
-                md:grid-cols-3
+                md:grid-cols-5
                 gap-6
               "
             >
@@ -899,17 +899,29 @@ export default function PlacementPage() {
               <VetoStep
                 number="01"
                 title="Игрок 1"
-                description="Банит одну карту"
+                description="Банит 1-ю карту"
               />
 
               <VetoStep
                 number="02"
                 title="Игрок 2"
-                description="Банит одну карту"
+                description="Банит 2-ю карту"
               />
 
               <VetoStep
                 number="03"
+                title="Игрок 1"
+                description="Банит 3-ю карту"
+              />
+
+              <VetoStep
+                number="04"
+                title="Игрок 2"
+                description="Банит 4-ю карту"
+              />
+
+              <VetoStep
+                number="05"
                 title="Финальная карта"
                 description="Оставшаяся карта играется"
               />
