@@ -53,7 +53,7 @@ export default function MatchVetoPage() {
 
   useLiveRefresh(
     loadMatch,
-    3000
+    15000
   )
 
   const banMap = async (mapName) => {
