@@ -50,7 +50,7 @@ export default function Navbar() {
     { name: "Калибровка", path: "/placement" },
     { name: "Турниры", path: "/tournaments" },
     { name: "Игроки", path: "/players" },
-    { name: "Hall Of Fame", path: "/hall-of-fame" }
+    { name: "«Зал Славы»", path: "/hall-of-fame" }
   ]
 
   if (admin) {
