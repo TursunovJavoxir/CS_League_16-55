@@ -16,7 +16,7 @@ CS League Platform
 - Seasonal progression
 - Competitive profiles
 - Match history
-- Hall Of Fame
+- «Зал Славы»
 - Tournament brackets
 - Admin system
 

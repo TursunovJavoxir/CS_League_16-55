@@ -42,7 +42,7 @@ export default function HallOfFamePage() {
       if (!response.ok) {
 
         throw new Error(
-          "Ошибка загрузки Hall Of Fame"
+          "Ошибка загрузки «Зал Славы»"
         )
 
       }
@@ -59,7 +59,7 @@ export default function HallOfFamePage() {
 
       setError(
         err.message ||
-        "Ошибка загрузки Hall Of Fame"
+        "Ошибка загрузки «Зал Славы»"
       )
 
     } finally {
@@ -105,7 +105,7 @@ export default function HallOfFamePage() {
       <div className="mx-auto max-w-7xl">
 
         <PageHeader
-          title="Hall Of Fame"
+          title="«Зал Славы»"
           subtitle="Легендарные чемпионы сезонов CS League"
         />
 
@@ -222,7 +222,7 @@ export default function HallOfFamePage() {
           !error &&
           champions.length === 0 && (
             <EmptyState
-              title="Hall Of Fame пуст"
+              title="«Зал Славы» пуст"
               description="После завершения сезонов здесь появятся чемпионы."
             />
           )
